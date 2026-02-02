@@ -12,7 +12,7 @@
 
 ***Modélisation du monde Météorologique***
 
-Nous avons choisi un monde simple, composé d'un sol, d'un arbre qui sera indicateur du changement de la météo en fonction des variations de la temperature à travers l'appel d'une API, puis d'un personna qui subira les changements de temperature et de saison.
+Nous avons choisi un monde simple, composé d'un sol, d'un arbre qui sera indicateur du changement de la météo en fonction des variations de la temperature à travers l'appel d'une API, puis d'un personna(le testeur portant le casque ou le simulateur du monde) qui subira les changements de temperature et de saison.
 
 **Processus de Conception**
 Nous avons choisis la scène principal(Basic URP) se nommant **SampleScene**.

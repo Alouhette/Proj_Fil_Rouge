@@ -14,28 +14,42 @@
 
 Nous avons choisi un monde simple, composé d'un sol, d'un arbre qui sera indicateur du changement de la météo en fonction des variations de la temperature à travers l'appel d'une API, puis d'un personna(le testeur portant le casque ou le simulateur du monde) qui subira les changements de temperature et de saison.
 
-**Processus de Conception**
+**Organisation de la scène**
 Nous avons choisis la scène principal(Basic URP) se nommant **SampleScene**.
 
-Nous avons choisi deux sol pour constitué le sol principal(un sol contiendra le personna et l'autre l'arbre), contenu dans le dossier **Ground** se nommant **Dirt** et **Dirt 2**
+*Sol:* 
+Nous avons décomposé le sol en 2 parties deux sol, contenu dans le l'objet **Ground** se nommant **Dirt** et **Dirt 2**
 
-Nous avons aussi choisis, un arbre qui nous indiquera le changement de saison, et les variations de nature externe, qu'ils fassent: pluvieux, neigé, ensolleillé... Illustré dans le dossier **Tree** composé :
+*Arbre:*
+Nous avons aussi choisis, un arbre qui nous indiquera le changement de saison, et les variations de nature externe, qu'ils fassent: pluvieux, neigé, ensolleillé... Illustré par l'objet **Tree** composé :
 
-* D'un tronc se trouvant dans le dossier ***Wood***
-* Des branches illustré dans le dossier **Sunny Leaves** composé de:
+* D'un tronc se trouvant dans le l'objet ***Wood***
+* Des branches illustré dans l'objet **Sunny Leaves** composé de:
 * ***Leafs 1***
 * ***Leafs 2-1***
 * ***Leafs 2-2***
 * ***Leafs 3***
 
-Nous avons aussi choisis un personna, qui nous servira d'element subissant, la temperature, et ,le changement de climat, illustré dans le dossier **Player??**
+(Il possède notamment plusieur  en fonction de la météo)
 
-## Pour le choix des couleurs
+*Pickaxe & Blocks:*
+Il s'agis d'objet/Prefab pour testers les intéractions avec la VR, la pickaxe sert à frapper les blocs pour tester leurs physique.
 
-Les couleurs ont été regroupés dans le dossier **Materials**,
-Ce dossier qui est constitué d'un sous dossier **Player** qui contient
-la couleur du personna.
-Et un autre dossier **Tree** qui comporte les couleurs composant l'arbre de notre monde.
+**Organisation des Assets:**
+
+Nos dossiers sont organisés de la façon suivante :
+* ***Materials*** (pour stockers les matériaux et couleurs de nos objets)
+* ***Prefabs*** (pour stockers les Prefabs de nos objets que l'on adapte au besoin)
+* ***Scenes*** (pour stocker nos scènes, il n'y en à qu'une pr le moment)
+* ***Scripts*** (Bientot pour stocker les scripts relié à nos objets et prefabs)
+
+**Fonctionnalitées**
+
+*Déplacement:*
+
+*Intéractions:*
+
+*Retours:*
 
 
 

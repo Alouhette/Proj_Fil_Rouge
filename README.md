@@ -34,6 +34,9 @@ Nous avons aussi choisis, un arbre qui nous indiquera le changement de saison, e
 
 (Il possède notamment plusieur  en fonction de la météo)
 
+*Static Block:*
+Juste pour servir de support de présentation des pioches, objet immobile, pas d'intéraction possible
+
 *Pickaxe & Blocks:*
 Il s'agis d'objet/Prefab pour testers les intéractions avec la VR, la pickaxe sert à frapper les blocs pour tester leurs physique.
 

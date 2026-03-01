@@ -50,10 +50,13 @@ Nos dossiers sont organisés de la façon suivante :
 **Fonctionnalitées**
 
 *Déplacement:*
+Joystick gauche : Pour le déplacement
+Joystick droit : Pour tourner la Caméra
 
 *Intéractions:*
+Possibilité d'attraper une "pickaxe", de la lancer ou encore de l'utiliser pour taper dans les blocks
 
 *Retours:*
-
+(To be done)
 
 

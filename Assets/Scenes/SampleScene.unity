@@ -831,6 +831,7 @@ GameObject:
   - component: {fileID: 298238590}
   - component: {fileID: 298238589}
   - component: {fileID: 298238588}
+  - component: {fileID: 298238593}
   m_Layer: 0
   m_Name: Flying Cube
   m_TagString: Untagged
@@ -958,6 +959,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &298238593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298238587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b7cb0c8ef50f042b5fe6aabebc8710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetZ
+  limiteY: -10
 --- !u!1 &307407252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,6 +1504,7 @@ GameObject:
   - component: {fileID: 584417457}
   - component: {fileID: 584417456}
   - component: {fileID: 584417455}
+  - component: {fileID: 584417460}
   m_Layer: 0
   m_Name: Flying Cube (1)
   m_TagString: Untagged
@@ -1617,6 +1632,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584417460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584417454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b7cb0c8ef50f042b5fe6aabebc8710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetZ
+  limiteY: -10
 --- !u!1 &601188531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2781,6 +2809,7 @@ GameObject:
   - component: {fileID: 871263452}
   - component: {fileID: 871263451}
   - component: {fileID: 871263453}
+  - component: {fileID: 871263454}
   m_Layer: 0
   m_Name: Pickaxe
   m_TagString: Untagged
@@ -3151,6 +3180,19 @@ MonoBehaviour:
     m_Duration: 0.1
     m_Frequency: 0
   m_AllowHoverHapticsWhileSelecting: 0
+--- !u!114 &871263454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871263446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b7cb0c8ef50f042b5fe6aabebc8710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetZ
+  limiteY: -10
 --- !u!1 &884483075
 GameObject:
   m_ObjectHideFlags: 0
@@ -4093,6 +4135,7 @@ GameObject:
   - component: {fileID: 1167447114}
   - component: {fileID: 1167447118}
   - component: {fileID: 1167447119}
+  - component: {fileID: 1167447120}
   m_Layer: 0
   m_Name: Pickaxe (2)
   m_TagString: Untagged
@@ -4366,6 +4409,19 @@ MonoBehaviour:
     m_Duration: 0.1
     m_Frequency: 0
   m_AllowHoverHapticsWhileSelecting: 0
+--- !u!114 &1167447120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167447113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b7cb0c8ef50f042b5fe6aabebc8710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetZ
+  limiteY: -10
 --- !u!1 &1168201726
 GameObject:
   m_ObjectHideFlags: 0
@@ -5197,6 +5253,7 @@ GameObject:
   - component: {fileID: 1441503444}
   - component: {fileID: 1441503448}
   - component: {fileID: 1441503449}
+  - component: {fileID: 1441503450}
   m_Layer: 0
   m_Name: Pickaxe (1)
   m_TagString: Untagged
@@ -5470,6 +5527,19 @@ MonoBehaviour:
     m_Duration: 0.1
     m_Frequency: 0
   m_AllowHoverHapticsWhileSelecting: 0
+--- !u!114 &1441503450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441503443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b7cb0c8ef50f042b5fe6aabebc8710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetZ
+  limiteY: -10
 --- !u!1 &1451625506
 GameObject:
   m_ObjectHideFlags: 0
@@ -6273,7 +6343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1771297515
 ParticleSystemRenderer:
   serializedVersion: 7
@@ -11235,7 +11305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1882605010
 ParticleSystemRenderer:
   serializedVersion: 7
@@ -16193,6 +16263,7 @@ GameObject:
   - component: {fileID: 1957659087}
   - component: {fileID: 1957659086}
   - component: {fileID: 1957659085}
+  - component: {fileID: 1957659090}
   m_Layer: 0
   m_Name: Flying Cube (2)
   m_TagString: Untagged
@@ -16320,6 +16391,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1957659090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957659084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b7cb0c8ef50f042b5fe6aabebc8710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetZ
+  limiteY: -10
 --- !u!1 &1964602097
 GameObject:
   m_ObjectHideFlags: 0
@@ -16332,6 +16416,7 @@ GameObject:
   - component: {fileID: 1964602099}
   - component: {fileID: 1964602098}
   - component: {fileID: 1964602101}
+  - component: {fileID: 1964602102}
   m_Layer: 0
   m_Name: XR Origin (VR)
   m_TagString: Untagged
@@ -16412,6 +16497,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1964602102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964602097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b7cb0c8ef50f042b5fe6aabebc8710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResetZ
+  limiteY: -10
 --- !u!1 &2066200241
 GameObject:
   m_ObjectHideFlags: 0

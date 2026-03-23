@@ -60,6 +60,7 @@ Joystick droit : Pour tourner la Caméra
 Possibilité d'attraper une "pickaxe", de la lancer ou encore de l'utiliser pour taper dans les blocks
 
 *Retours:*
-(To be done)
+Musique de fond (Loop)
+Pioche : Sons & vibrations (potentiel bug pour vibration) quand on attrape l'objet
 
 

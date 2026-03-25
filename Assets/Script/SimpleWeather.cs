@@ -11,6 +11,9 @@ public class ControleurMeteoReel : MonoBehaviour
     public string longitude = "-71.06";
 
     [Header("Références Objets")]
+    public GameObject arbreNeige;
+    public GameObject arbrePluie;
+
     public GameObject neige;
     public GameObject pluie;
     public ParticleSystem neigeParticles;
@@ -55,24 +58,33 @@ public class ControleurMeteoReel : MonoBehaviour
 
         // --- GESTION NEIGE ---
         neige.SetActive(estEnNeige);
+        arbreNeige.SetActive(estEnNeige);
         if (estEnNeige) {
             if (!neigeParticles.isPlaying) neigeParticles.Play();
-            texteEcran.color = Color.cyan;
         } else {
             neigeParticles.Stop();
         }
 
         // --- GESTION PLUIE ---
         pluie.SetActive(estEnPluie);
+        arbrePluie.SetActive(estEnPluie);
         if (estEnPluie) {
             if (!pluieParticles.isPlaying) pluieParticles.Play();
-            texteEcran.color = Color.blue;
+
         } else {
             pluieParticles.Stop();
         }
         
         // Si c'est dégagé (Code 0)
-        if (code == 0) texteEcran.color = Color.yellow;
+        if (code == 0){
+        
+           if(neigeParticles.isPlaying) neigeParticles.Stop();
+           if(pluieParticles.isPlaying) pluieParticles.Stop();
+           neige.SetActive(estEnNeige);
+           arbreNeige.SetActive(estEnNeige);
+           pluie.SetActive(estEnPluie);
+           arbrePluie.SetActive(estEnPluie); 	
+        }
     }
 
     // Pour forcer un rafraîchissement

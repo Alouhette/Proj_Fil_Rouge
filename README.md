@@ -86,6 +86,6 @@ négative est considéré comme neigeux, positif pluvieux.
 
 **Sons**
 
-Nous avons rajouté du son qui rythme avec la simulation, et tout est 
+Nous avons rajouté du son qui rythme avec la simulation, et tout marche bien.
 
 

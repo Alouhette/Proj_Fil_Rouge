@@ -652,10 +652,10 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[8] =
 };
 static const int32_t s_InvokerIndices[311] = 
 {
-	26468,
+	26471,
 	15261,
-	26308,
-	25136,
+	26311,
+	25139,
 	15049,
 	11574,
 	15049,
@@ -707,7 +707,7 @@ static const int32_t s_InvokerIndices[311] =
 	14846,
 	15261,
 	15261,
-	21455,
+	21458,
 	15261,
 	15261,
 	15261,
@@ -788,7 +788,7 @@ static const int32_t s_InvokerIndices[311] =
 	11574,
 	15049,
 	11574,
-	26412,
+	26415,
 	15261,
 	15049,
 	15049,
@@ -962,7 +962,7 @@ static const int32_t s_InvokerIndices[311] =
 	15261,
 	5876,
 	15261,
-	24987,
+	24990,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_SpatialKeyboard_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_SpatialKeyboard_CodeGenModule = 

@@ -7,9 +7,24 @@
 
 
 
+extern void ControleurAsset_Update_m078AC9DA1B36820D9B8AE5DD7310377367D7CAD2 (void);
+extern void ControleurAsset__ctor_mF139DEF87B5FA60548DF501D267BCF1DFA3323FB (void);
 extern void ResetY_Start_mD0254FA84B5B2997D8E09F63D3D6118A133FCE96 (void);
 extern void ResetY_Update_m3AED50DE89A37BB0A639CAFB4FC50B92417D4162 (void);
 extern void ResetY__ctor_m9A33911C14217DC2D2A0D93F36CD4092FC79A1F2 (void);
+extern void ControleurMeteoReel_Start_m4B0D9BCF54859D2306D6FF44F4D4B3148A6CB557 (void);
+extern void ControleurMeteoReel_GetWeather_mA7FEE0DFD9D5CC516D392D9EB91BA8D888CAB789 (void);
+extern void ControleurMeteoReel_AppliquerMeteo_m746208514095709B7CBA54D510CFC20B2A24DFCF (void);
+extern void ControleurMeteoReel_RefreshWeather_m8F23ED536DD8C76621F080B52C7CC1EFE1FA5118 (void);
+extern void ControleurMeteoReel__ctor_m739297B705E1625FD87BECB2EF64E0D32D377E10 (void);
+extern void U3CGetWeatherU3Ed__10__ctor_m797CDEEA053F0AF98D6DE6442B0D28AF5087F88F (void);
+extern void U3CGetWeatherU3Ed__10_System_IDisposable_Dispose_mE9379D624D0C13E5412655E84CB38AFE4635855E (void);
+extern void U3CGetWeatherU3Ed__10_MoveNext_mB7FC0CFE09C899546376E4E82B0010E44950B84F (void);
+extern void U3CGetWeatherU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCECC0B4C81BF2AB1393EFBE8D887EF3A1B7F01CF (void);
+extern void U3CGetWeatherU3Ed__10_System_Collections_IEnumerator_Reset_m304E962E5086E11159FE026E935A7DF35DFCB5A1 (void);
+extern void U3CGetWeatherU3Ed__10_System_Collections_IEnumerator_get_Current_m8F1FA3AD0AC4641A0BA9B00AADEE0CB25C5256F6 (void);
+extern void WeatherData__ctor_m7D8CDAA07FA674C37B3FD207E1198656F7173982 (void);
+extern void CurrentWeather__ctor_m894561630F1F187B1211C3C40CF679FA77CB1959 (void);
 extern void ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7 (void);
 extern void ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46 (void);
 extern void ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722 (void);
@@ -279,11 +294,26 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[272] = 
+static Il2CppMethodPointer s_methodPointers[287] = 
 {
+	ControleurAsset_Update_m078AC9DA1B36820D9B8AE5DD7310377367D7CAD2,
+	ControleurAsset__ctor_mF139DEF87B5FA60548DF501D267BCF1DFA3323FB,
 	ResetY_Start_mD0254FA84B5B2997D8E09F63D3D6118A133FCE96,
 	ResetY_Update_m3AED50DE89A37BB0A639CAFB4FC50B92417D4162,
 	ResetY__ctor_m9A33911C14217DC2D2A0D93F36CD4092FC79A1F2,
+	ControleurMeteoReel_Start_m4B0D9BCF54859D2306D6FF44F4D4B3148A6CB557,
+	ControleurMeteoReel_GetWeather_mA7FEE0DFD9D5CC516D392D9EB91BA8D888CAB789,
+	ControleurMeteoReel_AppliquerMeteo_m746208514095709B7CBA54D510CFC20B2A24DFCF,
+	ControleurMeteoReel_RefreshWeather_m8F23ED536DD8C76621F080B52C7CC1EFE1FA5118,
+	ControleurMeteoReel__ctor_m739297B705E1625FD87BECB2EF64E0D32D377E10,
+	U3CGetWeatherU3Ed__10__ctor_m797CDEEA053F0AF98D6DE6442B0D28AF5087F88F,
+	U3CGetWeatherU3Ed__10_System_IDisposable_Dispose_mE9379D624D0C13E5412655E84CB38AFE4635855E,
+	U3CGetWeatherU3Ed__10_MoveNext_mB7FC0CFE09C899546376E4E82B0010E44950B84F,
+	U3CGetWeatherU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCECC0B4C81BF2AB1393EFBE8D887EF3A1B7F01CF,
+	U3CGetWeatherU3Ed__10_System_Collections_IEnumerator_Reset_m304E962E5086E11159FE026E935A7DF35DFCB5A1,
+	U3CGetWeatherU3Ed__10_System_Collections_IEnumerator_get_Current_m8F1FA3AD0AC4641A0BA9B00AADEE0CB25C5256F6,
+	WeatherData__ctor_m7D8CDAA07FA674C37B3FD207E1198656F7173982,
+	CurrentWeather__ctor_m894561630F1F187B1211C3C40CF679FA77CB1959,
 	ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7,
 	ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46,
 	ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722,
@@ -554,9 +584,24 @@ static Il2CppMethodPointer s_methodPointers[272] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[272] = 
+static const int32_t s_InvokerIndices[287] = 
 {
 	15261,
+	15261,
+	15261,
+	15261,
+	15261,
+	15261,
+	15049,
+	5994,
+	15261,
+	15261,
+	11506,
+	15261,
+	14846,
+	15049,
+	15261,
+	15049,
 	15261,
 	15261,
 	15261,
@@ -576,7 +621,7 @@ static const int32_t s_InvokerIndices[272] =
 	15049,
 	15261,
 	15261,
-	26447,
+	26450,
 	15261,
 	2314,
 	15261,
@@ -696,7 +741,7 @@ static const int32_t s_InvokerIndices[272] =
 	15049,
 	15049,
 	15261,
-	26412,
+	26415,
 	11506,
 	15261,
 	14846,
@@ -833,7 +878,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	272,
+	287,
 	s_methodPointers,
 	0,
 	NULL,

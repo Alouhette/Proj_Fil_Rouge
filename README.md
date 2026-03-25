@@ -1,5 +1,9 @@
 # Proj_Fil_Rouge
 
+##Auteurs##
+**-Diallo Mamadou Saidou DIAM22070300**
+**-Lippens Evan LIPE23100400**
+
 ## Objectif: 
 ***-Réaliser un projet de météo**
 ##
@@ -32,6 +36,9 @@ Nous avons aussi choisis, un arbre qui nous indiquera le changement de saison, e
 * ***Leafs 2-2***
 * ***Leafs 3***
 
+*Nature*
+-Ce dossier qui contient la simulation de la **Neige** et **Pluie**
+
 (Il possède notamment plusieur  en fonction de la météo)
 
 *Static Block:*
@@ -62,5 +69,23 @@ Possibilité d'attraper une "pickaxe", de la lancer ou encore de l'utiliser pour
 *Retours:*
 Musique de fond (Loop),
 Pioche : Sons & vibrations (potentiel bug pour vibration) quand on attrape l'objet
+
+## 4eme Étape: ##
+
+**Intéractions**
+
+Nous avons rajouté des particules systemes pour simuler la neige, et la pluie.
+Nous les avons rajouter un script pour les declanché, afin d'observer les changements et l'effet que sa procure.
+En parlant des scripts rajouté, comme donné dans le cours nous avons fais un appel à travers l'api météo pour donner la température en temps réel.
+Comme tenu de la faible variation de la température nous ferons varions la température pour montrer les cas que nous avons eu à décidé mais lors du rapport,
+la température sera donné à partir de l'appel de l'API.
+
+Nous comptons aussi exploité l'API pour donner une information sur  la pluviometrie, la chute de neige ou même l'etat du soleil, mais pour le moment une température
+négative est considéré comme neigeux, positif pluvieux.
+
+
+**Sons**
+
+Nous avons rajouté du son qui rythme avec la simulation, et tout est 
 
 

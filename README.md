@@ -1,9 +1,5 @@
 # Proj_Fil_Rouge
 
-##Auteurs##
-**-Diallo Mamadou Saidou DIAM22070300**
-**-Lippens Evan LIPE23100400**
-
 ## Objectif: 
 ***-Réaliser un projet de météo**
 ##
